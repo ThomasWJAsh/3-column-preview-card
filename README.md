@@ -82,6 +82,7 @@ To make the design mobile first, I put my desktop-specific properties (container
 Had to go back and refactor the my Sass a bit because I needed
 to reuse the card colours for the text on hover, so it made more sense to declare them as variables (enabling colour to be changed easily in future.)
 
+And now I think I'm done!
 
 ### Built with
 
