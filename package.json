@@ -1,0 +1,24 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compileSass": "sass scss/main.scss css/styles.css --style=compressed --embed-sources"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasWJAsh/3-column-preview-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasWJAsh/3-column-preview-card/issues"
+  },
+  "homepage": "https://github.com/ThomasWJAsh/3-column-preview-card#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
