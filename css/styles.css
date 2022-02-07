@@ -1,5 +1,59 @@
-.card-wrapper {
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  display: grid;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+}
+.card h2 {
+  font-family: "Big Shoulders Display";
+  color: #f2f2f2;
+}
+.card p {
+  font-family: "Lexend Deca";
+  color: rgba(255, 255, 255, 0.75);
+}
+.card#one {
+  background: #e38826;
+}
+.card#two {
+  background: #006970;
+}
+.card#three {
+  background: #004241;
+}
+.card button {
+  font-family: "Lexend Deca";
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 0.5px solid #f2f2f2;
+  border-radius: 2rem;
+  width: 40%;
+  height: 2.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
