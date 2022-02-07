@@ -4,6 +4,7 @@ $cardBody: 'Lexend Deca';
 $cardHeader: 'Big Shoulders Display';
 $headerColor: hsl(0, 0%, 95%);
 
+html {font-size: 15px}
 body {
   margin: 0;
   padding: 0;
@@ -20,8 +21,8 @@ align-items: center;}
 
 .card-wrapper {
 display: grid;
-height: 80%;
-width: 80%;
+height: 70%;
+width: 65%;
 border-radius: 10px;
 overflow: hidden;
 }
@@ -32,18 +33,20 @@ grid-row: 1;
 
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 padding: 4rem;
 
   h2 {
     font-family: $cardHeader;
     color: $headerColor;
+    font-size: 2rem;
 
   }
 
   p {
     font-family: $cardBody;
     color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
   }
 
   &#one {
@@ -61,8 +64,10 @@ padding: 4rem;
     background-color: transparent;
     color: $headerColor;
     border: 0.5px solid $headerColor;
-    border-radius: 2rem;
-    width: 40%;
+    border-radius: 20px;
+    width: 10rem;
     height: 2.5rem;
   }
 }
+
+@media
