@@ -71,10 +71,13 @@ required and I'm pretty happy with how it looks!
 
 (Checking the design I notice the cards should have a small amount of drop-shadow, but I didn't like how this looked so I removed it. Sorry designer...)
 
-- Step Seven: part of the challenge is to change the state of the design according to the user's viewport (ie go vertical for mobile) and add hover effects.
+- Step Seven: part of the challenge is to change the state of the design according to the user's viewport (ie go vertical for mobile).
 
-I decided to approach the mobile version  and get my media queries out the way first. This may seem a bit odd but is there any point adding hover effects to the base design when mobile users can't use them? Better to put them in a media query for desktop users IMO.
+I didn't want to break my working design, so I started work on my mobile version in a branch.
 
+To make the design mobile first, I put my desktop-specific properties (container width and height, card-wrapper width and height, card grid-row) inside a min-width media query and removed them from the main design. At this point I also decided to use % for the padding rather than rems, so that the card stayed in proportion on more viewports, and remove a little from the top and bottom in mobile and tablet view so the content fitted better. I then tinkered with the width of the mobile design until I was happy with it.
+
+- Step Eight: My hover effects are also going in a media query.  This may seem a bit odd but is there any point adding hover effects to the base design when mobile users can't use them? Better to put them in a media query for desktop users IMO.
 
 
 ### Built with
