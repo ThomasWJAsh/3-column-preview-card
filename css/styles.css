@@ -74,6 +74,19 @@ body {
     grid-row: 1;
     padding: 20%;
   }
+  .card button:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  .card#one button:hover {
+    color: #e38826;
+  }
+  .card#two button:hover {
+    color: #006970;
+  }
+  .card#three button:hover {
+    color: #004241;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,9 @@
 $cardBody: 'Lexend Deca';
 $cardHeader: 'Big Shoulders Display';
 $headerColor: hsl(0, 0%, 95%);
+$cardOneColor: hsl(31, 77%, 52%);
+$cardTwoColor: hsl(184, 100%, 22%);
+$cardThreeColor: hsl(179, 100%, 13%);
 
 html {font-size: 15px}
 body {
@@ -49,13 +52,13 @@ justify-content: space-between;
   }
 
   &#one {
-    background: hsl(31, 77%, 52%);
+    background: $cardOneColor;
   }
   &#two {
-    background: hsl(184, 100%, 22%);
+    background: $cardTwoColor;
   }
   &#three {
-    background: hsl(179, 100%, 13%);
+    background: $cardThreeColor;
   }
 
   button {
@@ -86,7 +89,20 @@ justify-content: space-between;
 
   grid-row: 1;
   padding: 20%;
-  // grid-column: 1;
+  button:hover {
+  background-color: $headerColor;
+  cursor: pointer;
+}
+
+  &#one {
+    button:hover {
+  color: $cardOneColor}};
+  &#two {
+    button:hover {
+  color: $cardTwoColor}};
+  &#three {
+    button:hover {
+  color: $cardThreeColor}};
 }
 
 
