@@ -79,6 +79,9 @@ To make the design mobile first, I put my desktop-specific properties (container
 
 - Step Eight: My hover effects are also going in a media query.  This may seem a bit odd but is there any point adding hover effects to the base design when mobile users can't use them? Better to put them in a media query for desktop users IMO.
 
+Had to go back and refactor the my Sass a bit because I needed
+to reuse the card colours for the text on hover, so it made more sense to declare them as variables (enabling colour to be changed easily in future.)
+
 
 ### Built with
 
